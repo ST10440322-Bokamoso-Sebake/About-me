@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import './styles/themes.css';
 import './styles/animations.css';
@@ -68,6 +69,7 @@ function App() {
       </main>
       <Footer />
       <ScrollToTop />
+      <Analytics />
     </div>
   );
 }
